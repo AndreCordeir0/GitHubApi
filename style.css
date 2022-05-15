@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #141C2F;
+    font-family: 'Blinker', sans-serif;
+}
+header{
+    margin-bottom: 20px;
+}
+img{
+    border-radius: 50%;
+    width: 130px;
+}
+.all-container{
+    margin: 0 auto;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-content{
+    background-color: #1F2A48;
+    width: 600px;
+    border-radius:7px;
+    border: 1px solid #141C2F;
+    display: flex;
+    flex-direction: column;
+   word-spacing: 4px;
+}
+.primeiro-container{
+    padding-top: 10px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    line-height: 34px;
+   color: white;
+}
+.nicks-bio{
+    width:45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+#data-de-entrada{
+    margin-bottom: 70px;
+}
+#nickMenor{
+    color:#215ab1 ;
+}
+
+.segundo-container{
+background: #141C2F;
+width: 400px;
+align-self: center;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+font-size: 18px;
+border-radius:7px;
+margin-left: 140px;
+}
+.container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: white;
+}
+.title{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+color: white;
+}
+.inputer,form{
+    width: 600px;
+    display: flex;
+    background-color: #1F2A48;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius:7px;
+    height: 50px;
+}
+.inputer i {
+    padding-right: 10px;
+    color: purple;
+    font-size: 18px;
+}
+#input-text{
+height: 100% !important;
+background: transparent;
+border: unset;
+width: 80%;
+color: white;
+}
+i{
+    color: white;
+}
+
+#input-text:active,#input-text:focus{
+    outline: none;
+}
+#input-text::placeholder{
+    color: #9daac2;
+}
+button{
+    padding: 12px 18px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    color: #fff;
+    border: unset;
+    outline: none;
+    cursor: pointer;
+    
+}         
+.terceiro-container{
+    padding-top: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 180px;
+    padding-bottom: 20px;
+}
+.terceiro-container-content{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.terceiro-container-content i {
+    padding-right: 9px;
+}
