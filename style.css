@@ -24,6 +24,29 @@ img{
     justify-content: center;
     align-items: center;
 }
+.dark{ cursor: pointer;}
+.dark i{
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+
+ .light  {
+    background-color: #ffffff;
+    color: black;
+}
+.light .main-content{
+    background-color: #bdcdc2;
+}
+.light .segundo-container{
+    background-color: #ffffff;
+}
+.light .inputer,.light form{
+    background-color:#bdcdc2 ;
+}
+.light .primeiro-container, .light #input-text, .light .container,.light i,.light .terceiro-container, .light .title{
+color: black;
+}
 .main-content{
     background-color: #1F2A48;
     width: 600px;
@@ -31,7 +54,7 @@ img{
     border: 1px solid #141C2F;
     display: flex;
     flex-direction: column;
-   word-spacing: 4px;
+   word-spacing: 2px;
 }
 .primeiro-container{
     padding-top: 10px;
@@ -55,7 +78,9 @@ img{
 #nickMenor{
     color:#215ab1 ;
 }
-
+nickMaior{
+    color: white;
+}
 .segundo-container{
 background: #141C2F;
 width: 400px;
@@ -129,7 +154,7 @@ button{
     color: white;
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 10px;
     margin-left: 180px;
     padding-bottom: 20px;
 }
