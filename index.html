@@ -1,77 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GITAPI</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-   
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 <body>
     <div class="all-container">
+        <header>
+            <div class="title">
+                <h1>DevFinder</h1>
+                <p class="dark">LIGHT<i class="fas fa-sun"></i></p>
+            </div>
+            <div class="inputer">
+                <form action="" id="form">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search GitHub username" id="input-text" autocomplete="off">
+                    <button id="submit" type="submit">Search</button>
+                </form>
+            </div>
+        </header>
+        <div class="main-content">
+            <div class="primeiro-container">
+                <img id="img"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn11Rru16VFClaKhYzoL9yGLIwOEaggMpa1Q&usqp=CAU"
+                    alt="">
+                <div class="nicks-bio">
+                    <h3 id="nickMaior">The octocat</h3>
+                    <p id="nickMenor">@octocat</p>
+                    <p id="bio">This profile has no bio</p>
+                </div>
+                <p id="data-de-entrada">Joined 25 Jan 2011</p>
+            </div>
+            <div class="segundo-container">
+                <div class="container">
+                    <p>Repos</p>
+                    <p id="repositorio">8</p>
+                </div>
+                <div class="container">
+                    <p>Followers</p>
+                    <p id="followers">3938</p>
+                </div>
+                <div class="container">
+                    <p>Following</p>
+                    <p id="following">9</p>
+                </div>
+            </div>
+            <div class="terceiro-container">
+                <div class="terceiro-container-content">
+                    <p> <i class="fas fa-map-marker-alt"></i><span id="localization">San francisco</span></p>
+                    <p><i class="fas fa-link"></i><span id="link">https//github</span></p>
+                </div>
+                <div class="terceiro-container-content">
 
- 
-    <header>
-        
-        <div class="title">
-            <h1>DevFinder</h1>
-            <p class="dark">LIGHT<i class="fas fa-sun" ></i></p>
-        </div>
-        <div class="inputer">
-            <form action="" id="form">
-                <i class="fas fa-search"></i>
-                <input type="text" placeholder="Search GitHub username" id="input-text" autocomplete="off">
-                <button id="submit" type="submit" >Search</button>
-            </form>
-            
-        </div>
-        
-    </header>
-
-    <div class="main-content">
-       <div class="primeiro-container">
-           <img id="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn11Rru16VFClaKhYzoL9yGLIwOEaggMpa1Q&usqp=CAU" alt="">
-        <div class="nicks-bio">
-            <h3 id="nickMaior" >The octocat</h3>
-            <p id="nickMenor">@octocat</p>
-            <p id="bio">This profile has no bio</p>
-        </div>
-        <p id="data-de-entrada">Joined 25 Jan 2011</p>
-       </div>
-        
-        
-        <div class="segundo-container">
-            <div class="container">
-                <p>Repos</p>
-                <p id="repositorio">8</p>
+                    <p id="twitter"><i class="fab fa-twitter"></i><span class="twitter">not Avaliable</span> </p>
+                    <p><i class="fas fa-building"></i>@github</p>
+                </div>
             </div>
-            <div class="container">
-                <p>Followers</p>
-                <p id="followers">3938</p>
-            </div>
-            <div class="container">
-                <p>Following</p>
-                <p id="following">9</p>
-            </div>
-        </div>
-        <div class="terceiro-container">
-            <div class="terceiro-container-content">
-                <p > <i class="fas fa-map-marker-alt"></i><span id="localization">San francisco</span></p>
-                <p ><i class="fas fa-link"></i><span id="link">https//github</span></p>
-            </div>
-            <div class="terceiro-container-content">
-                
-                <p id="twitter"><i class="fab fa-twitter"></i><span class="twitter">not Avaliable</span> </p>
-                <p><i class="fas fa-building"></i>@github</p>
-            </div>
-            
-         
         </div>
     </div>
-
-</div>
-    <script src="./index.js"></script>
+    <script type="module" src="./index.js"></script>
 </body>
 </html>
